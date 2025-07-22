@@ -40,9 +40,9 @@
                 </ul>
             </div>
         </div>
-
+<!-- Complted Tasks -->
         <div class="todo-section">
-            <div class="section-header" onclick="toggleSection('completed')">
+            <div class="section-header active" onclick="toggleSection('completed')">
                 <div class="section-header-row">
                     <h2>Completed Tasks</h2>
                     <span class="count" id="completed-count">0</span>
@@ -51,7 +51,7 @@
             </div>
             <div class="section-content expanded" id="completed-section">
                 <ul id="completedList">
-                    <li class="todo-item">
+                    <li class="todo-item completed">
                         <input type="checkbox" class="checkbox">
                         <span class="todo-text">Make tutorial</span>
                         <button class = "delete-btn"><i class='bx  bx-trash'  ></i> </button>
