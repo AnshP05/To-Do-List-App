@@ -1,5 +1,5 @@
 let todos = JSON.parse(localStorage.getItem('todos')) || []
-let isLatestFirst = JSON.parse(localStorage.getItem('isLatesFirst')) || true
+let isLatestFirst = JSON.parse(localStorage.getItem('isLatestFirst')) || true
 
 //Add Todo when user pressed enter
 document.getElementById("todo-input"),addEventListener('keypress', function(e){
@@ -107,5 +107,9 @@ function saveTodos() {
     localStorage.setItem('todos', JSON.stringify(todos))
     localStorage.setItem('isLatestFirst', JSON.stringify(isLatestFirst))
 }
-
+window.deleteTodo = deleteTodo;
+window.toggleComplete = toggleComplete;
+window.toggleSort = toggleSort;
+window.addTodo = addTodo;
+window.toggleSection = toggleSection;
 renderTodos()
