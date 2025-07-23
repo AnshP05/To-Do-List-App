@@ -83,7 +83,7 @@ function renderTodos() {
         li.className = `todo-item ${todo.completed ? 'completed' : ''}`
         li.innerHTML = `<input type="checkbox" class="checkbox" ${todo.completed ? 'completed' : ''} onclick="toggleComplete(${todo.id})">
                         <span class="todo-text">${todo.text}</span>
-                        <button class = "delete-btn" onlcick="deleteTodo(${todo.id})"><i class='bx  bx-trash'  ></i> </button>`
+                        <button class = "delete-btn" onclick="deleteTodo(${todo.id})"><i class='bx  bx-trash'  ></i> </button>`
 
         if(todo.completed) {
             completedList.appendChild(li)
