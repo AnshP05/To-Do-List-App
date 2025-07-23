@@ -1,0 +1,40 @@
+# Modern Todo List App
+
+A simple, modern, and responsive Todo List web application built with HTML, CSS, and JavaScript.
+
+## Features
+
+- Add new tasks
+- Mark tasks as completed/uncompleted
+- Delete tasks
+- Sort tasks by oldest or latest
+- Collapsible sections for uncompleted and completed tasks
+- Persistent storage using browser localStorage
+- Responsive design and modern UI with Boxicons
+
+## Getting Started
+
+1. **Clone or download the repository.**
+2. Open `index.html` in your web browser.
+
+## File Structure
+
+- `index.html` — Main HTML file for the app UI
+- `style.css` — Styles for the app
+- `script.js` — JavaScript logic for managing todos
+
+## Usage
+
+- Type a task in the input box and press **Add** or hit **Enter**.
+- Click the checkbox to mark a task as completed/uncompleted.
+- Click the trash icon to delete a task.
+- Use the **Sort** button to change the order of tasks.
+- Click the section headers to collapse or expand task lists.
+
+## Dependencies
+
+- [Boxicons](https://boxicons.com/) for icons (loaded via CDN)
+
+## License
+
+This project is open source
