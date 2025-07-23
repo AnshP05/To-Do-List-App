@@ -4,8 +4,7 @@
   "version": "1.0",
   "description": "A modern, clean todo list to manage your tasks easily.",
   "action": {
-    "default_popup": "index.html",
-    "default_icon": "icon.png"
+    "default_popup": "index.html"
   },
   "permissions": [],
   "host_permissions": []
